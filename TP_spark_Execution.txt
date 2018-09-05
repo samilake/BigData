@@ -1,0 +1,61 @@
+*** Début exécution TP ***
+
+Contenu du dataframe: 
++---+--------------+----------+--------+-------+
+| id|          name|      city|province|zipcode|
++---+--------------+----------+--------+-------+
+| 10|   Jean Treman|  Montreal|      QC|H1H 8J9|
+| 20|  Jolie Josten|  Joliette|      QC|J7G 0K7|
+| 30|     Bib Jober|Repentigny|      QC|J6T 7G6|
+| 40|   Anton Dasro| Mascouche|      QC|J3F 6R4|
+| 50|Jamier Winston|  Montreal|      QC|H1H 8J9|
++---+--------------+----------+--------+-------+
+
+()Schéma du dataframe: 
+root
+ |-- id: integer (nullable = true)
+ |-- name: string (nullable = true)
+ |-- city: string (nullable = true)
+ |-- province: string (nullable = true)
+ |-- zipcode: string (nullable = true)
+
+Liste des clients (nom): 
++--------------+
+|          name|
++--------------+
+|   Jean Treman|
+|  Jolie Josten|
+|     Bib Jober|
+|   Anton Dasro|
+|Jamier Winston|
++--------------+
+
+Liste des clients (nom et ville): 
++--------------+----------+
+|          name|      city|
++--------------+----------+
+|   Jean Treman|  Montreal|
+|  Jolie Josten|  Joliette|
+|     Bib Jober|Repentigny|
+|   Anton Dasro| Mascouche|
+|Jamier Winston|  Montreal|
++--------------+----------+
+
+Client ayant pour ID 30: 
++---+---------+----------+--------+-------+
+| id|     name|      city|province|zipcode|
++---+---------+----------+--------+-------+
+| 30|Bib Jober|Repentigny|      QC|J6T 7G6|
++---+---------+----------+--------+-------+
+
+Groupage des clients par code postal: 
++-------+----------+---------------+
+|zipcode|      city|Nb_of_customers|
++-------+----------+---------------+
+|J7G 0K7|  Joliette|              1|
+|J3F 6R4| Mascouche|              1|
+|H1H 8J9|  Montreal|              2|
+|J6T 7G6|Repentigny|              1|
++-------+----------+---------------+
+
+*** Fin exécution TP ***
