@@ -4,9 +4,10 @@ Big-Data-1:
 
 This project consists of :
 
-  - Create a Hadoop cluster on virtual machine created from CentOS distribution
+  - Create a Hadoop cluster on virtual machine from CentOS distribution (1 masternode and 3 datanodes)
   - Download and install Cloudera Manager on the masternode 
-  - utilisant Cloudera Manager au final, et ensuite tester le cluster en exécutant un job MapReduce.
+  - Test the cluster by running a MapReduce job.
+
 
 Big-Data-2:
 
